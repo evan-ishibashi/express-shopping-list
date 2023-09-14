@@ -50,6 +50,10 @@ class Item {
   static deleteItem(currItem){
     items = items.filter(i => i !== currItem);
   }
+
+  static deleteAll() {
+    items = [];
+  }
 }
 
 
